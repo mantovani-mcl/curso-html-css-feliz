@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- indica o tipo de documento - fala a versão de HTML que está utilizando (a última que o navegador usado suporta) -->
+
+<html lang="pt-BR"> <!-- atributo global - podem ser usadas dentro de outras tags, leitura feita em ptBR-->
+    <head> <!-- configurações que tem a ver com o navegador -->
+        <meta charset="UTF-8"> <!-- força o uso de uma tabela de caracteres especiais (ç, ~)-->
+        <title>Michelle Mantovani</title> <!-- título da aba -->
+
+        <!-- segundo jeito de fazer o css dentro do html 
+        <style> /*css*/
+
+            header {
+                background-color: red;
+            }
+
+            a { /*vai mudar o estilo de tudo que tenha a tag 'a' dentro dessa página*/
+                color: white; 
+                font-size: 20px;
+            }
+
+        </style> -->
+
+        <!-- faz o download das fontes que serão utilizadas-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/reset.css"> <!--remove os estilos dado pelo navegador -->
+        <link rel="stylesheet" href="css/index.css">  <!--link chama algo - stylesheet diz que nesse caso chama o css - href é o caminho do arquivo chamado-->
+        
+    </head>
+
+    <body> <!-- configurações do site -->
+        <!-- outro jeito de colocar o estilo aqui dentro, mas se precisar modificar tem que fazer um por um, 
+            por isso compensa mais fazer lá em cima com o <style>: <header style="background-color: red;"> -->
+        <header>
+            <h1>mm</h1>
+            <!--<img src="assets/img/logo.png" alt="logo">  alt é o texto que aparece se a imagem não for carregada e o que será lido por leitores de tela -->
+
+            <nav> <!-- navegation - navegação do site, tag para guardar os links de navegação -->
+                <a href="" lang="en">Skills</a> <!-- anchor - âncora, tag para colocar cada link-->
+                <a href="">Projetos</a>
+                <a href="">Sobre</a>
+                <a href="">Contatos</a>
+
+                <a id="button" href="" lang="en">Download CV</a> <!-- a tag  'em' dá ênfase ao que estiver dentro, daí nesse caso, será lido em PTBR, enquanto o que está fora será lido em inglês como definido dentro da tag 'a'-->
+            </nav>
+        </header>
+    </body>
+</html>
