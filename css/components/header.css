@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000C66;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+}
+
+.header #logo {
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 55px;
+    color: #0E86D4;
+    text-shadow: 5px 5px 0px #000000;
+}

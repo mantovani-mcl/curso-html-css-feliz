@@ -1,3 +1,13 @@
+body {
+    font-family: "Fira Code", Arial, Helvetica, sans-serif; /*as fontes fora das aspas são as que serão carregadas em sequência se não existir a anterior suportada pelo navegador*/
+}
+
+
 body, h1, h2, h3 {
     margin: 0;
 }
+
+/*button {
+    border: none;
+    font-family: inherit;
+}*/
