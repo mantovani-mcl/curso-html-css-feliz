@@ -10,11 +10,11 @@ header {
     padding-bottom: 10px;
 }
 
-h1{
+#logo {
     font-family: 'Reenie Beanie', sans-serif;
     font-size: 55px;
     color: #0E86D4;
-    text-shadow: 3px 3px 0px #000000;
+    text-shadow: 5px 5px 0px #000000;
 }
 
 nav {
@@ -46,14 +46,13 @@ a::before {
     /*height: 60px;
     line-height: 60px; altura da linha - qdo é do mesmo tamanho que a altura da caixa, o texto fica centralizado - só funciona para quando é só uma linha de texto*/
     box-shadow: 5px 5px 0px #000000; /*eixo x - eixo y (invertido da matemática - positivo desce) - blur (esfumaçado) - cor */
-    padding-left: 20px; /* preenchimento/espaçamento interno do elemento - recebe a cor de fundo do próprio elemento, oq difere da margem que é um espaçamento externo*/
-    padding-right: 20px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding: 18px 20px; /* preenchimento/espaçamento interno do elemento - recebe a cor de fundo do próprio elemento, oq difere da margem que é um espaçamento externo*/
     margin-right: 0;
     transition: transform 100ms linear;
 }
 
 #button:hover{
     transform: scale(0.92);
+    box-shadow: 0 0 0;
 }
+
