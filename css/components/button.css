@@ -1,0 +1,17 @@
+.button { /*quando é sobre um id coloca o #, se não tiver o # é sobre uma tag*/
+    display: inline-block; /*o padrão é inline - não deixa mudar o tamanho das coisas*/
+    background-color: #0E86D4;
+    /*height: 60px;
+    line-height: 60px; altura da linha - qdo é do mesmo tamanho que a altura da caixa, o texto fica centralizado - só funciona para quando é só uma linha de texto*/
+    box-shadow: 5px 5px 0px #000000; /*eixo x - eixo y (invertido da matemática - positivo desce) - blur (esfumaçado) - cor */
+    padding: 18px 20px; /* preenchimento/espaçamento interno do elemento - recebe a cor de fundo do próprio elemento, oq difere da margem que é um espaçamento externo*/
+    margin-right: 0;
+    transition: transform 100ms linear;
+    color: #FFF; 
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    transform: scale(0.92);
+    box-shadow: 0 0 0;
