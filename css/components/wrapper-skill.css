@@ -15,6 +15,12 @@
     margin-right: 100px;
 }
 
+.wrapper-skill .skills-tec:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 0;
+}
+
 .wrapper-skill .progress-bar {
     width: 320px;
 }
+
